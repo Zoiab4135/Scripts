@@ -1,0 +1,1 @@
+Generate an output of the password expiry dates and times of specified users.
