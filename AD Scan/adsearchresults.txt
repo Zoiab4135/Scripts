@@ -1,0 +1,30 @@
+﻿2024-10-10 09:50:49,D643894, EXISTS in Active Directory. DistinguishedName: CN=D643894,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,D643898, EXISTS in Active Directory. DistinguishedName: CN=D643898,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,L10885, EXISTS in Active Directory. DistinguishedName: CN=L10885,OU=MF Dunedin,OU=Dunedin,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:51,L10811, EXISTS in Active Directory. DistinguishedName: CN=L10811,OU=MF Timaru,OU=Misc South Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643797, EXISTS in Active Directory. DistinguishedName: CN=D643797,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,D643817, EXISTS in Active Directory. DistinguishedName: CN=D643817,OU=Dailyfreight Akl,OU=ORorke Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,L10931, EXISTS in Active Directory. DistinguishedName: CN=L10931,OU=MF Mobile Auckland,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,L11157, EXISTS in Active Directory. DistinguishedName: CN=L11157,OU=MF Palmerston North,OU=Misc North Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,W642029, EXISTS in Active Directory. DistinguishedName: CN=W642029,OU=Wallboards,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,WB642005, EXISTS in Active Directory. DistinguishedName: CN=WB642005,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,L11033, EXISTS in Active Directory. DistinguishedName: CN=L11033,OU=MF Blenheim,OU=Misc South Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,L11132, EXISTS in Active Directory. DistinguishedName: CN=L11132,OU=MFI Wellington,OU=Wellington,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,L11133, EXISTS in Active Directory. DistinguishedName: CN=L11133,OU=MF Wanganui,OU=Misc North Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643780, EXISTS in Active Directory. DistinguishedName: CN=D643780,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D642914, EXISTS in Active Directory. DistinguishedName: CN=D642914,OU=MF Whangarei,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D642948, EXISTS in Active Directory. DistinguishedName: CN=D642948,OU=Dailyfreight Akl,OU=ORorke Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D640920, EXISTS in Active Directory. DistinguishedName: CN=D640920,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D642819, EXISTS in Active Directory. DistinguishedName: CN=D642819,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D642883, EXISTS in Active Directory. DistinguishedName: CN=D642883,OU=MF Cromwell,OU=Misc South Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643568, EXISTS in Active Directory. DistinguishedName: CN=D643568,OU=MF Rotorua,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D642912, EXISTS in Active Directory. DistinguishedName: CN=D642912,OU=MF FTL Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643541, EXISTS in Active Directory. DistinguishedName: CN=D643541,OU=Dailyfreight Akl,OU=ORorke Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D643074, EXISTS in Active Directory. DistinguishedName: CN=D643074,OU=Owens Southdown Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D643276, EXISTS in Active Directory. DistinguishedName: CN=D643276,OU=Dailyfreight Christchurch,OU=Christchurch,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D640840, DELETED from Active Directory.
+2024-10-10 09:50:50,W642056, DELETED from Active Directory.
+2024-10-10 09:50:48,D643612, DELETED from Active Directory.
+2024-10-10 09:50:48,D643610, DELETED from Active Directory.
+2024-10-10 09:50:50,W642009, DELETED from Active Directory.
+2024-10-10 09:50:46,D642134, DELETED from Active Directory.

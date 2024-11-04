@@ -1,0 +1,1285 @@
+**********************
+PowerShell transcript start
+Start time: 20231108163239
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.9.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1699389203-a71e8d5d-0a1a-4591-aae9-9ac74146f8481699389201648\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20952-209574.json' -FeatureFlags @() 
+Process ID: 21120
+PSVersion: 7.3.9
+PSEdition: Core
+GitCommitId: 7.3.9
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.9
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2023-11-08 16:32:40, d640895, does not exist in Active Directory.
+2023-11-08 16:32:42, d642450, does not exist in Active Directory.
+2023-11-08 16:32:42, d642451, does not exist in Active Directory.
+2023-11-08 16:32:42, d642456, does not exist in Active Directory.
+2023-11-08 16:32:42, d642461, does not exist in Active Directory.
+2023-11-08 16:32:42, d642463, does not exist in Active Directory.
+2023-11-08 16:32:42, d642464, does not exist in Active Directory.
+2023-11-08 16:32:42, d642449, does not exist in Active Directory.
+2023-11-08 16:32:42, d642465, does not exist in Active Directory.
+2023-11-08 16:32:42, d642471, does not exist in Active Directory.
+2023-11-08 16:32:42, d642472, does not exist in Active Directory.
+2023-11-08 16:32:42, d642475, does not exist in Active Directory.
+2023-11-08 16:32:42, d642482, does not exist in Active Directory.
+2023-11-08 16:32:42, d642483, does not exist in Active Directory.
+2023-11-08 16:32:43, d642484, does not exist in Active Directory.
+2023-11-08 16:32:42, d642466, does not exist in Active Directory.
+2023-11-08 16:32:43, d642522, does not exist in Active Directory.
+2023-11-08 16:32:42, d642448, does not exist in Active Directory.
+2023-11-08 16:32:42, d642446, does not exist in Active Directory.
+2023-11-08 16:32:42, d642432, does not exist in Active Directory.
+2023-11-08 16:32:42, d642433, does not exist in Active Directory.
+2023-11-08 16:32:42, d642434, does not exist in Active Directory.
+2023-11-08 16:32:42, d642435, does not exist in Active Directory.
+2023-11-08 16:32:42, d642436, does not exist in Active Directory.
+2023-11-08 16:32:42, d642437, does not exist in Active Directory.
+2023-11-08 16:32:42, d642447, does not exist in Active Directory.
+2023-11-08 16:32:42, d642438, does not exist in Active Directory.
+2023-11-08 16:32:42, d642440, does not exist in Active Directory.
+2023-11-08 16:32:42, d642441, does not exist in Active Directory.
+2023-11-08 16:32:42, d642442, does not exist in Active Directory.
+2023-11-08 16:32:42, d642443, does not exist in Active Directory.
+2023-11-08 16:32:42, d642444, does not exist in Active Directory.
+2023-11-08 16:32:42, d642445, does not exist in Active Directory.
+2023-11-08 16:32:42, d642439, does not exist in Active Directory.
+2023-11-08 16:32:43, d642554, does not exist in Active Directory.
+2023-11-08 16:32:43, d642575, does not exist in Active Directory.
+2023-11-08 16:32:43, d642683, does not exist in Active Directory.
+2023-11-08 16:32:43, d642060, does not exist in Active Directory.
+2023-11-08 16:32:43, d642061, does not exist in Active Directory.
+2023-11-08 16:32:43, d642063, does not exist in Active Directory.
+2023-11-08 16:32:43, d642100, does not exist in Active Directory.
+2023-11-08 16:32:43, d642156, does not exist in Active Directory.
+2023-11-08 16:32:43, d642160, does not exist in Active Directory.
+2023-11-08 16:32:43, d642058, does not exist in Active Directory.
+2023-11-08 16:32:43, d64298, does not exist in Active Directory.
+2023-11-08 16:32:43, D640933, does not exist in Active Directory.
+2023-11-08 16:32:43, D640939, does not exist in Active Directory.
+2023-11-08 16:32:43, D642012, does not exist in Active Directory.
+2023-11-08 16:32:43, D642056, does not exist in Active Directory.
+2023-11-08 16:32:43, D642294, does not exist in Active Directory.
+2023-11-08 16:32:43, D642368, does not exist in Active Directory.
+2023-11-08 16:32:43, D640932, does not exist in Active Directory.
+2023-11-08 16:32:43, d642057, does not exist in Active Directory.
+2023-11-08 16:32:43, d642055, does not exist in Active Directory.
+2023-11-08 16:32:43, d642054, does not exist in Active Directory.
+2023-11-08 16:32:43, d642724, does not exist in Active Directory.
+2023-11-08 16:32:43, d642767, does not exist in Active Directory.
+2023-11-08 16:32:43, d642769, does not exist in Active Directory.
+2023-11-08 16:32:43, d642789, does not exist in Active Directory.
+2023-11-08 16:32:43, d643727, does not exist in Active Directory.
+2023-11-08 16:32:43, l10524, does not exist in Active Directory.
+2023-11-08 16:32:43, l10545, does not exist in Active Directory.
+2023-11-08 16:32:43, l10559, does not exist in Active Directory.
+2023-11-08 16:32:43, l10565, does not exist in Active Directory.
+2023-11-08 16:32:43, l10571, does not exist in Active Directory.
+2023-11-08 16:32:43, l10617, does not exist in Active Directory.
+2023-11-08 16:32:43, l10653, does not exist in Active Directory.
+2023-11-08 16:32:43, l10670, does not exist in Active Directory.
+2023-11-08 16:32:43, l1100, does not exist in Active Directory.
+2023-11-08 16:32:43, d642053, does not exist in Active Directory.
+2023-11-08 16:32:42, d642421, does not exist in Active Directory.
+2023-11-08 16:32:42, d642416, does not exist in Active Directory.
+2023-11-08 16:32:42, d642415, does not exist in Active Directory.
+2023-11-08 16:32:42, d642414, does not exist in Active Directory.
+2023-11-08 16:32:40, d642310, does not exist in Active Directory.
+2023-11-08 16:32:40, d642311, does not exist in Active Directory.
+2023-11-08 16:32:40, d642314, does not exist in Active Directory.
+2023-11-08 16:32:40, d642315, does not exist in Active Directory.
+2023-11-08 16:32:40, d642316, does not exist in Active Directory.
+2023-11-08 16:32:40, d642317, does not exist in Active Directory.
+2023-11-08 16:32:40, d642306, does not exist in Active Directory.
+2023-11-08 16:32:40, d642318, does not exist in Active Directory.
+2023-11-08 16:32:40, d642336, does not exist in Active Directory.
+2023-11-08 16:32:40, d642337, does not exist in Active Directory.
+2023-11-08 16:32:40, d642340, does not exist in Active Directory.
+2023-11-08 16:32:40, d642341, does not exist in Active Directory.
+2023-11-08 16:32:40, d642342, does not exist in Active Directory.
+2023-11-08 16:32:40, d642343, does not exist in Active Directory.
+2023-11-08 16:32:40, d642319, does not exist in Active Directory.
+2023-11-08 16:32:40, d642264, does not exist in Active Directory.
+2023-11-08 16:32:40, d642258, does not exist in Active Directory.
+2023-11-08 16:32:40, d642166, does not exist in Active Directory.
+2023-11-08 16:32:40, d640901, does not exist in Active Directory.
+2023-11-08 16:32:40, d640915, does not exist in Active Directory.
+2023-11-08 16:32:40, d640924, does not exist in Active Directory.
+2023-11-08 16:32:40, d640941, does not exist in Active Directory.
+2023-11-08 16:32:40, d642026, does not exist in Active Directory.
+2023-11-08 16:32:40, d642065, does not exist in Active Directory.
+2023-11-08 16:32:40, d642066, does not exist in Active Directory.
+2023-11-08 16:32:40, d642067, does not exist in Active Directory.
+2023-11-08 16:32:40, d642068, does not exist in Active Directory.
+2023-11-08 16:32:40, d642069, does not exist in Active Directory.
+2023-11-08 16:32:40, d642074, does not exist in Active Directory.
+2023-11-08 16:32:40, d642075, does not exist in Active Directory.
+2023-11-08 16:32:40, d642076, does not exist in Active Directory.
+2023-11-08 16:32:40, d642078, does not exist in Active Directory.
+2023-11-08 16:32:40, d642082, does not exist in Active Directory.
+2023-11-08 16:32:40, d642344, does not exist in Active Directory.
+2023-11-08 16:32:43, D642761, does not exist in Active Directory.
+2023-11-08 16:32:40, d642345, does not exist in Active Directory.
+2023-11-08 16:32:40, d642347, does not exist in Active Directory.
+2023-11-08 16:32:41, d642395, does not exist in Active Directory.
+2023-11-08 16:32:41, d642396, does not exist in Active Directory.
+2023-11-08 16:32:41, d642397, does not exist in Active Directory.
+2023-11-08 16:32:41, d642398, does not exist in Active Directory.
+2023-11-08 16:32:41, d642399, does not exist in Active Directory.
+2023-11-08 16:32:41, d642401, does not exist in Active Directory.
+2023-11-08 16:32:41, d642394, does not exist in Active Directory.
+2023-11-08 16:32:41, d642402, does not exist in Active Directory.
+2023-11-08 16:32:42, d642405, does not exist in Active Directory.
+2023-11-08 16:32:42, d642406, does not exist in Active Directory.
+2023-11-08 16:32:42, d642407, does not exist in Active Directory.
+2023-11-08 16:32:42, d642408, does not exist in Active Directory.
+2023-11-08 16:32:42, d642409, does not exist in Active Directory.
+2023-11-08 16:32:42, d642412, does not exist in Active Directory.
+2023-11-08 16:32:41, d642404, does not exist in Active Directory.
+2023-11-08 16:32:41, d642393, does not exist in Active Directory.
+2023-11-08 16:32:41, d642392, does not exist in Active Directory.
+2023-11-08 16:32:41, d642391, does not exist in Active Directory.
+2023-11-08 16:32:40, d642348, does not exist in Active Directory.
+2023-11-08 16:32:40, d642349, does not exist in Active Directory.
+2023-11-08 16:32:40, d642350, does not exist in Active Directory.
+2023-11-08 16:32:41, d642351, does not exist in Active Directory.
+2023-11-08 16:32:41, d642352, does not exist in Active Directory.
+2023-11-08 16:32:41, d642353, does not exist in Active Directory.
+2023-11-08 16:32:41, d642354, does not exist in Active Directory.
+2023-11-08 16:32:41, d642355, does not exist in Active Directory.
+2023-11-08 16:32:41, d642356, does not exist in Active Directory.
+2023-11-08 16:32:41, d642357, does not exist in Active Directory.
+2023-11-08 16:32:41, d642358, does not exist in Active Directory.
+2023-11-08 16:32:41, d642381, does not exist in Active Directory.
+2023-11-08 16:32:41, d642382, does not exist in Active Directory.
+2023-11-08 16:32:41, d642384, does not exist in Active Directory.
+2023-11-08 16:32:41, d642390, does not exist in Active Directory.
+2023-11-08 16:32:40, d642346, does not exist in Active Directory.
+2023-11-08 16:32:43, L10530, does not exist in Active Directory.
+**********************
+PowerShell transcript end
+End time: 20231108163247
+**********************
+**********************
+PowerShell transcript start
+Start time: 20231114225714
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.9.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1699955777-47ab3805-7b61-421a-9f5e-69162d395adb1699955775592\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-18284-477801.json' -FeatureFlags @() 
+Process ID: 2680
+PSVersion: 7.3.9
+PSEdition: Core
+GitCommitId: 7.3.9
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.9
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2023-11-14 22:57:14, D642040, EXISTS in Active Directory. DistinguishedName: CN=D642040,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642590, EXISTS in Active Directory. DistinguishedName: CN=D642590,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642602, EXISTS in Active Directory. DistinguishedName: CN=D642602,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642621, EXISTS in Active Directory. DistinguishedName: CN=D642621,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642616, EXISTS in Active Directory. DistinguishedName: CN=D642616,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642578, EXISTS in Active Directory. DistinguishedName: CN=D642578,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642627, EXISTS in Active Directory. DistinguishedName: CN=D642627,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642749, EXISTS in Active Directory. DistinguishedName: CN=D642749,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642531, EXISTS in Active Directory. DistinguishedName: CN=D642531,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642572, EXISTS in Active Directory. DistinguishedName: CN=D642572,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642606, EXISTS in Active Directory. DistinguishedName: CN=D642606,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642626, EXISTS in Active Directory. DistinguishedName: CN=D642626,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642622, EXISTS in Active Directory. DistinguishedName: CN=D642622,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642565, EXISTS in Active Directory. DistinguishedName: CN=D642565,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642607, EXISTS in Active Directory. DistinguishedName: CN=D642607,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642577, EXISTS in Active Directory. DistinguishedName: CN=D642577,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642664, EXISTS in Active Directory. DistinguishedName: CN=D642664,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642673, EXISTS in Active Directory. DistinguishedName: CN=D642673,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642619, EXISTS in Active Directory. DistinguishedName: CN=D642619,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642615, EXISTS in Active Directory. DistinguishedName: CN=D642615,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642618, EXISTS in Active Directory. DistinguishedName: CN=D642618,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642658, EXISTS in Active Directory. DistinguishedName: CN=D642658,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642534, EXISTS in Active Directory. DistinguishedName: CN=D642534,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642544, EXISTS in Active Directory. DistinguishedName: CN=D642544,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642547, EXISTS in Active Directory. DistinguishedName: CN=D642547,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642595, EXISTS in Active Directory. DistinguishedName: CN=D642595,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642629, EXISTS in Active Directory. DistinguishedName: CN=D642629,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:15, D642624, EXISTS in Active Directory. DistinguishedName: CN=D642624,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642645, EXISTS in Active Directory. DistinguishedName: CN=D642645,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642425, EXISTS in Active Directory. DistinguishedName: CN=D642425,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642177, EXISTS in Active Directory. DistinguishedName: CN=D642177,OU=MFT Hamilton,OU=Hamilton,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642546, EXISTS in Active Directory. DistinguishedName: CN=D642546,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642591, EXISTS in Active Directory. DistinguishedName: CN=D642591,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642651, EXISTS in Active Directory. DistinguishedName: CN=D642651,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642623, EXISTS in Active Directory. DistinguishedName: CN=D642623,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642149, EXISTS in Active Directory. DistinguishedName: CN=D642149,OU=MFT Hamilton,OU=Hamilton,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D640931, EXISTS in Active Directory. DistinguishedName: CN=D640931,OU=Wallboards,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642777, EXISTS in Active Directory. DistinguishedName: CN=D642777,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642583, EXISTS in Active Directory. DistinguishedName: CN=D642583,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642690, EXISTS in Active Directory. DistinguishedName: CN=D642690,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-14 22:57:14, D642599, DELETED from Active Directory.
+2023-11-14 22:57:14, D642775, DELETED from Active Directory.
+2023-11-14 22:57:14, D642736, DELETED from Active Directory.
+2023-11-14 22:57:14, D642737, DELETED from Active Directory.
+2023-11-14 22:57:14, D642776, DELETED from Active Directory.
+2023-11-14 22:57:14, D642779, DELETED from Active Directory.
+2023-11-14 22:57:15, D642663, DELETED from Active Directory.
+2023-11-14 22:57:14, D642741, DELETED from Active Directory.
+2023-11-14 22:57:15, D642647, DELETED from Active Directory.
+2023-11-14 22:57:14, D642043, DELETED from Active Directory.
+2023-11-14 22:57:14, D642714, DELETED from Active Directory.
+2023-11-14 22:57:14, D642632, DELETED from Active Directory.
+2023-11-14 22:57:14, D642634, DELETED from Active Directory.
+2023-11-14 22:57:14, D642130, DELETED from Active Directory.
+2023-11-14 22:57:14, D642678, DELETED from Active Directory.
+2023-11-14 22:57:14, D642772, DELETED from Active Directory.
+2023-11-14 22:57:14, D642682, DELETED from Active Directory.
+2023-11-14 22:57:14, D642638, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20231114225716
+**********************
+**********************
+PowerShell transcript start
+Start time: 20231117144911
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.9.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700171304-97c6cc6b-8958-4692-bda0-d8cf1806f04d1700171302013\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-32348-874555.json' -FeatureFlags @() 
+Process ID: 35948
+PSVersion: 7.3.9
+PSEdition: Core
+GitCommitId: 7.3.9
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.9
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2023-11-17 14:49:12, D642118, EXISTS in Active Directory. DistinguishedName: CN=D642118,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:12, D642170, EXISTS in Active Directory. DistinguishedName: CN=D642170,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:12, D642084, EXISTS in Active Directory. DistinguishedName: CN=D642084,OU=M2Home Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:12, D642110, EXISTS in Active Directory. DistinguishedName: CN=D642110,OU=MF Rotorua,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:12, D642072, EXISTS in Active Directory. DistinguishedName: CN=D642072,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:12, D642071, EXISTS in Active Directory. DistinguishedName: CN=D642071,OU=MF Precision_Farmers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:12, D642070, EXISTS in Active Directory. DistinguishedName: CN=D642070,OU=M2Home Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:12, D642134, EXISTS in Active Directory. DistinguishedName: CN=D642134,OU=MF Kaitaia,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:49:13, D642116, DELETED from Active Directory.
+2023-11-17 14:49:12, D642147, DELETED from Active Directory.
+2023-11-17 14:49:12, D642148, DELETED from Active Directory.
+2023-11-17 14:49:12, D642149, DELETED from Active Directory.
+2023-11-17 14:49:12, D642177, DELETED from Active Directory.
+2023-11-17 14:49:12, D642283, DELETED from Active Directory.
+2023-11-17 14:49:13, D642122, DELETED from Active Directory.
+2023-11-17 14:49:12, D640933, DELETED from Active Directory.
+2023-11-17 14:49:12, D642073, DELETED from Active Directory.
+2023-11-17 14:49:12, D642095, DELETED from Active Directory.
+2023-11-17 14:49:12, D642103, DELETED from Active Directory.
+2023-11-17 14:49:13, D642121, DELETED from Active Directory.
+2023-11-17 14:49:12, D642104, DELETED from Active Directory.
+2023-11-17 14:49:12, D642105, DELETED from Active Directory.
+2023-11-17 14:49:12, D642106, DELETED from Active Directory.
+2023-11-17 14:49:12, D642142, DELETED from Active Directory.
+2023-11-17 14:49:12, D642109, DELETED from Active Directory.
+2023-11-17 14:49:13, D642120, DELETED from Active Directory.
+2023-11-17 14:49:12, D642111, DELETED from Active Directory.
+2023-11-17 14:49:13, D642112, DELETED from Active Directory.
+2023-11-17 14:49:13, D642119, DELETED from Active Directory.
+2023-11-17 14:49:13, D642113, DELETED from Active Directory.
+2023-11-17 14:49:13, D642115, DELETED from Active Directory.
+2023-11-17 14:49:12, D642107, DELETED from Active Directory.
+2023-11-17 14:49:12, D640941, DELETED from Active Directory.
+2023-11-17 14:49:13, D642124, DELETED from Active Directory.
+2023-11-17 14:49:12, D642091, DELETED from Active Directory.
+2023-11-17 14:49:12, D642065, DELETED from Active Directory.
+2023-11-17 14:49:12, D642066, DELETED from Active Directory.
+2023-11-17 14:49:12, D642067, DELETED from Active Directory.
+2023-11-17 14:49:12, D642068, DELETED from Active Directory.
+2023-11-17 14:49:12, D642069, DELETED from Active Directory.
+2023-11-17 14:49:12, D642258, DELETED from Active Directory.
+2023-11-17 14:49:12, D642074, DELETED from Active Directory.
+2023-11-17 14:49:12, D642075, DELETED from Active Directory.
+2023-11-17 14:49:12, D642076, DELETED from Active Directory.
+2023-11-17 14:49:12, D642078, DELETED from Active Directory.
+2023-11-17 14:49:12, D642079, DELETED from Active Directory.
+2023-11-17 14:49:12, D642080, DELETED from Active Directory.
+2023-11-17 14:49:12, D642081, DELETED from Active Directory.
+2023-11-17 14:49:12, D642082, DELETED from Active Directory.
+2023-11-17 14:49:12, D642166, DELETED from Active Directory.
+2023-11-17 14:49:12, D642306, DELETED from Active Directory.
+2023-11-17 14:49:12, D642769, DELETED from Active Directory.
+2023-11-17 14:49:12, D642724, DELETED from Active Directory.
+2023-11-17 14:49:12, D642336, DELETED from Active Directory.
+2023-11-17 14:49:12, D642337, DELETED from Active Directory.
+2023-11-17 14:49:12, D640939, DELETED from Active Directory.
+2023-11-17 14:49:12, D640932, DELETED from Active Directory.
+2023-11-17 14:49:12, D642707, DELETED from Active Directory.
+2023-11-17 14:49:13, D642126, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20231117144914
+**********************
+**********************
+PowerShell transcript start
+Start time: 20231117145436
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.9.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700171304-97c6cc6b-8958-4692-bda0-d8cf1806f04d1700171302013\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-32348-874555.json' -FeatureFlags @() 
+Process ID: 35948
+PSVersion: 7.3.9
+PSEdition: Core
+GitCommitId: 7.3.9
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.9
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2023-11-17 14:54:37, D642134, EXISTS in Active Directory. DistinguishedName: CN=D642134,OU=MF Kaitaia,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:37, D642084, EXISTS in Active Directory. DistinguishedName: CN=D642084,OU=M2Home Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:38, D642251, EXISTS in Active Directory. DistinguishedName: CN=D642251,OU=MFL Business Parade,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:38, D642187, EXISTS in Active Directory. DistinguishedName: CN=D642187,OU=Owens Southdown Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:37, D642118, EXISTS in Active Directory. DistinguishedName: CN=D642118,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:37, D642145, EXISTS in Active Directory. DistinguishedName: CN=D642145,OU=MF Greymouth,OU=Misc South Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:37, D642170, EXISTS in Active Directory. DistinguishedName: CN=D642170,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:36, D642072, EXISTS in Active Directory. DistinguishedName: CN=D642072,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:37, D642110, EXISTS in Active Directory. DistinguishedName: CN=D642110,OU=MF Rotorua,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:36, D642070, EXISTS in Active Directory. DistinguishedName: CN=D642070,OU=M2Home Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:37, D642140, EXISTS in Active Directory. DistinguishedName: CN=D642140,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:38, D642062, EXISTS in Active Directory. DistinguishedName: CN=D642062,OU=Port Operations,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:38, D642255, EXISTS in Active Directory. DistinguishedName: CN=D642255,OU=MFL Business Parade,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:38, D642064, EXISTS in Active Directory. DistinguishedName: CN=D642064,OU=Port Operations,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:36, D642071, EXISTS in Active Directory. DistinguishedName: CN=D642071,OU=MF Precision_Farmers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 14:54:37, D642252, DELETED from Active Directory.
+2023-11-17 14:54:37, D642270, DELETED from Active Directory.
+2023-11-17 14:54:38, D642280, DELETED from Active Directory.
+2023-11-17 14:54:37, D642254, DELETED from Active Directory.
+2023-11-17 14:54:37, D642275, DELETED from Active Directory.
+2023-11-17 14:54:37, D642293, DELETED from Active Directory.
+2023-11-17 14:54:37, D642536, DELETED from Active Directory.
+2023-11-17 14:54:37, D642284, DELETED from Active Directory.
+2023-11-17 14:54:37, D642100, DELETED from Active Directory.
+2023-11-17 14:54:37, D642117, DELETED from Active Directory.
+2023-11-17 14:54:37, D642101, DELETED from Active Directory.
+2023-11-17 14:54:37, D642366, DELETED from Active Directory.
+2023-11-17 14:54:37, D642679, DELETED from Active Directory.
+2023-11-17 14:54:37, D642264, DELETED from Active Directory.
+2023-11-17 14:54:37, D642150, DELETED from Active Directory.
+2023-11-17 14:54:37, D642144, DELETED from Active Directory.
+2023-11-17 14:54:37, D642143, DELETED from Active Directory.
+2023-11-17 14:54:37, D642139, DELETED from Active Directory.
+2023-11-17 14:54:37, D642138, DELETED from Active Directory.
+2023-11-17 14:54:37, D642137, DELETED from Active Directory.
+2023-11-17 14:54:37, D642411, DELETED from Active Directory.
+2023-11-17 14:54:38, D642205, DELETED from Active Directory.
+2023-11-17 14:54:36, D640941, DELETED from Active Directory.
+2023-11-17 14:54:38, D642256, DELETED from Active Directory.
+2023-11-17 14:54:38, D642063, DELETED from Active Directory.
+2023-11-17 14:54:38, D642061, DELETED from Active Directory.
+2023-11-17 14:54:38, D642060, DELETED from Active Directory.
+2023-11-17 14:54:38, D642058, DELETED from Active Directory.
+2023-11-17 14:54:38, D642057, DELETED from Active Directory.
+2023-11-17 14:54:38, D642056, DELETED from Active Directory.
+2023-11-17 14:54:38, D642055, DELETED from Active Directory.
+2023-11-17 14:54:38, D642054, DELETED from Active Directory.
+2023-11-17 14:54:38, D642053, DELETED from Active Directory.
+2023-11-17 14:54:38, D642725, DELETED from Active Directory.
+2023-11-17 14:54:38, D642299, DELETED from Active Directory.
+2023-11-17 14:54:38, D642298, DELETED from Active Directory.
+2023-11-17 14:54:38, D642297, DELETED from Active Directory.
+2023-11-17 14:54:38, D642294, DELETED from Active Directory.
+2023-11-17 14:54:38, D642292, DELETED from Active Directory.
+2023-11-17 14:54:38, D642291, DELETED from Active Directory.
+2023-11-17 14:54:38, D642286, DELETED from Active Directory.
+2023-11-17 14:54:38, D642282, DELETED from Active Directory.
+2023-11-17 14:54:38, D642272, DELETED from Active Directory.
+2023-11-17 14:54:38, D642271, DELETED from Active Directory.
+2023-11-17 14:54:38, D642258, DELETED from Active Directory.
+2023-11-17 14:54:37, D642136, DELETED from Active Directory.
+2023-11-17 14:54:38, D642257, DELETED from Active Directory.
+2023-11-17 14:54:38, D642250, DELETED from Active Directory.
+2023-11-17 14:54:37, D642135, DELETED from Active Directory.
+2023-11-17 14:54:37, D642128, DELETED from Active Directory.
+2023-11-17 14:54:37, D642132, DELETED from Active Directory.
+2023-11-17 14:54:37, D642142, DELETED from Active Directory.
+2023-11-17 14:54:37, D642707, DELETED from Active Directory.
+2023-11-17 14:54:37, D640932, DELETED from Active Directory.
+2023-11-17 14:54:37, D640939, DELETED from Active Directory.
+2023-11-17 14:54:37, D642337, DELETED from Active Directory.
+2023-11-17 14:54:37, D642336, DELETED from Active Directory.
+2023-11-17 14:54:37, D642724, DELETED from Active Directory.
+2023-11-17 14:54:37, D642769, DELETED from Active Directory.
+2023-11-17 14:54:37, D642306, DELETED from Active Directory.
+2023-11-17 14:54:37, D642166, DELETED from Active Directory.
+2023-11-17 14:54:37, D642082, DELETED from Active Directory.
+2023-11-17 14:54:36, D642081, DELETED from Active Directory.
+2023-11-17 14:54:36, D642080, DELETED from Active Directory.
+2023-11-17 14:54:36, D642079, DELETED from Active Directory.
+2023-11-17 14:54:36, D642078, DELETED from Active Directory.
+2023-11-17 14:54:36, D642076, DELETED from Active Directory.
+2023-11-17 14:54:36, D642075, DELETED from Active Directory.
+2023-11-17 14:54:36, D642074, DELETED from Active Directory.
+2023-11-17 14:54:36, D642258, DELETED from Active Directory.
+2023-11-17 14:54:36, D642069, DELETED from Active Directory.
+2023-11-17 14:54:36, D642068, DELETED from Active Directory.
+2023-11-17 14:54:36, D642067, DELETED from Active Directory.
+2023-11-17 14:54:36, D642066, DELETED from Active Directory.
+2023-11-17 14:54:36, D642065, DELETED from Active Directory.
+2023-11-17 14:54:36, D642091, DELETED from Active Directory.
+2023-11-17 14:54:37, D642147, DELETED from Active Directory.
+2023-11-17 14:54:37, D642133, DELETED from Active Directory.
+2023-11-17 14:54:37, D642148, DELETED from Active Directory.
+2023-11-17 14:54:37, D642177, DELETED from Active Directory.
+2023-11-17 14:54:37, D642131, DELETED from Active Directory.
+2023-11-17 14:54:37, D642129, DELETED from Active Directory.
+2023-11-17 14:54:38, D642156, DELETED from Active Directory.
+2023-11-17 14:54:37, D642127, DELETED from Active Directory.
+2023-11-17 14:54:37, D642126, DELETED from Active Directory.
+2023-11-17 14:54:37, D642124, DELETED from Active Directory.
+2023-11-17 14:54:37, D642122, DELETED from Active Directory.
+2023-11-17 14:54:37, D642121, DELETED from Active Directory.
+2023-11-17 14:54:37, D642120, DELETED from Active Directory.
+2023-11-17 14:54:37, D642119, DELETED from Active Directory.
+2023-11-17 14:54:37, D642116, DELETED from Active Directory.
+2023-11-17 14:54:37, D642115, DELETED from Active Directory.
+2023-11-17 14:54:37, D642113, DELETED from Active Directory.
+2023-11-17 14:54:37, D642112, DELETED from Active Directory.
+2023-11-17 14:54:37, D642111, DELETED from Active Directory.
+2023-11-17 14:54:37, D642109, DELETED from Active Directory.
+2023-11-17 14:54:37, D642107, DELETED from Active Directory.
+2023-11-17 14:54:37, D642106, DELETED from Active Directory.
+2023-11-17 14:54:37, D642105, DELETED from Active Directory.
+2023-11-17 14:54:37, D642104, DELETED from Active Directory.
+2023-11-17 14:54:37, D642103, DELETED from Active Directory.
+2023-11-17 14:54:37, D642095, DELETED from Active Directory.
+2023-11-17 14:54:37, D642073, DELETED from Active Directory.
+2023-11-17 14:54:37, D640933, DELETED from Active Directory.
+2023-11-17 14:54:37, D642283, DELETED from Active Directory.
+2023-11-17 14:54:37, D642149, DELETED from Active Directory.
+2023-11-17 14:54:38, D642160, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20231117145441
+**********************
+**********************
+PowerShell transcript start
+Start time: 20231117151849
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.9.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700171304-97c6cc6b-8958-4692-bda0-d8cf1806f04d1700171302013\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-32348-874555.json' -FeatureFlags @() 
+Process ID: 35948
+PSVersion: 7.3.9
+PSEdition: Core
+GitCommitId: 7.3.9
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.9
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2023-11-17 15:18:51,D642255, EXISTS in Active Directory. DistinguishedName: CN=D642255,OU=MFL Business Parade,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:18:50,D642084, EXISTS in Active Directory. DistinguishedName: CN=D642084,OU=M2Home Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:18:50,D642134, EXISTS in Active Directory. DistinguishedName: CN=D642134,OU=MF Kaitaia,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:18:50,D642071, EXISTS in Active Directory. DistinguishedName: CN=D642071,OU=MF Precision_Farmers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:18:50,D642070, EXISTS in Active Directory. DistinguishedName: CN=D642070,OU=M2Home Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:18:51,D642251, EXISTS in Active Directory. DistinguishedName: CN=D642251,OU=MFL Business Parade,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:18:52,D642064, EXISTS in Active Directory. DistinguishedName: CN=D642064,OU=Port Operations,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:18:51,D642205, DELETED from Active Directory.
+2023-11-17 15:18:51,D642280, DELETED from Active Directory.
+2023-11-17 15:18:51,D642270, DELETED from Active Directory.
+2023-11-17 15:18:51,D642252, DELETED from Active Directory.
+2023-11-17 15:18:51,D642284, DELETED from Active Directory.
+2023-11-17 15:18:51,D642254, DELETED from Active Directory.
+2023-11-17 15:18:51,D642275, DELETED from Active Directory.
+2023-11-17 15:18:51,D642293, DELETED from Active Directory.
+2023-11-17 15:18:51,D642536, DELETED from Active Directory.
+2023-11-17 15:18:51,D642411, DELETED from Active Directory.
+2023-11-17 15:18:51,D642117, DELETED from Active Directory.
+2023-11-17 15:18:51,D642138, DELETED from Active Directory.
+2023-11-17 15:18:51,D642139, DELETED from Active Directory.
+2023-11-17 15:18:51,D642100, DELETED from Active Directory.
+2023-11-17 15:18:51,D642135, DELETED from Active Directory.
+2023-11-17 15:18:51,D642679, DELETED from Active Directory.
+2023-11-17 15:18:51,D642264, DELETED from Active Directory.
+2023-11-17 15:18:51,D642150, DELETED from Active Directory.
+2023-11-17 15:18:51,D642145, DELETED from Active Directory.
+2023-11-17 15:18:51,D642144, DELETED from Active Directory.
+2023-11-17 15:18:51,D642143, DELETED from Active Directory.
+2023-11-17 15:18:51,D642140, DELETED from Active Directory.
+2023-11-17 15:18:51,D642136, DELETED from Active Directory.
+2023-11-17 15:18:51,D642137, DELETED from Active Directory.
+2023-11-17 15:18:51,D642101, DELETED from Active Directory.
+2023-11-17 15:18:51,D642366, DELETED from Active Directory.
+2023-11-17 15:18:50,D640941, DELETED from Active Directory.
+2023-11-17 15:18:51,D642133, DELETED from Active Directory.
+2023-11-17 15:18:52,D642063, DELETED from Active Directory.
+2023-11-17 15:18:52,D642062, DELETED from Active Directory.
+2023-11-17 15:18:51,D642061, DELETED from Active Directory.
+2023-11-17 15:18:51,D642060, DELETED from Active Directory.
+2023-11-17 15:18:51,D642058, DELETED from Active Directory.
+2023-11-17 15:18:51,D642057, DELETED from Active Directory.
+2023-11-17 15:18:51,D642056, DELETED from Active Directory.
+2023-11-17 15:18:51,D642055, DELETED from Active Directory.
+2023-11-17 15:18:51,D642054, DELETED from Active Directory.
+2023-11-17 15:18:51,D642053, DELETED from Active Directory.
+2023-11-17 15:18:51,D642187, DELETED from Active Directory.
+2023-11-17 15:18:51,D642725, DELETED from Active Directory.
+2023-11-17 15:18:51,D642299, DELETED from Active Directory.
+2023-11-17 15:18:51,D642298, DELETED from Active Directory.
+2023-11-17 15:18:51,D642297, DELETED from Active Directory.
+2023-11-17 15:18:51,D642294, DELETED from Active Directory.
+2023-11-17 15:18:51,D642292, DELETED from Active Directory.
+2023-11-17 15:18:51,D642291, DELETED from Active Directory.
+2023-11-17 15:18:51,D642286, DELETED from Active Directory.
+2023-11-17 15:18:51,D642282, DELETED from Active Directory.
+2023-11-17 15:18:51,D642272, DELETED from Active Directory.
+2023-11-17 15:18:51,D642271, DELETED from Active Directory.
+2023-11-17 15:18:51,D642258, DELETED from Active Directory.
+2023-11-17 15:18:51,D642257, DELETED from Active Directory.
+2023-11-17 15:18:51,D642256, DELETED from Active Directory.
+2023-11-17 15:18:51,D642250, DELETED from Active Directory.
+2023-11-17 15:18:51,D642132, DELETED from Active Directory.
+2023-11-17 15:18:51,D642128, DELETED from Active Directory.
+2023-11-17 15:18:51,D642129, DELETED from Active Directory.
+2023-11-17 15:18:50,D642118, DELETED from Active Directory.
+2023-11-17 15:18:50,D640932, DELETED from Active Directory.
+2023-11-17 15:18:50,D640939, DELETED from Active Directory.
+2023-11-17 15:18:50,D642337, DELETED from Active Directory.
+2023-11-17 15:18:50,D642336, DELETED from Active Directory.
+2023-11-17 15:18:50,D642170, DELETED from Active Directory.
+2023-11-17 15:18:50,D642724, DELETED from Active Directory.
+2023-11-17 15:18:50,D642769, DELETED from Active Directory.
+2023-11-17 15:18:50,D642306, DELETED from Active Directory.
+2023-11-17 15:18:50,D642166, DELETED from Active Directory.
+2023-11-17 15:18:50,D642082, DELETED from Active Directory.
+2023-11-17 15:18:50,D642081, DELETED from Active Directory.
+2023-11-17 15:18:50,D642707, DELETED from Active Directory.
+2023-11-17 15:18:50,D642080, DELETED from Active Directory.
+2023-11-17 15:18:50,D642078, DELETED from Active Directory.
+2023-11-17 15:18:50,D642076, DELETED from Active Directory.
+2023-11-17 15:18:50,D642075, DELETED from Active Directory.
+2023-11-17 15:18:50,D642074, DELETED from Active Directory.
+2023-11-17 15:18:50,D642072, DELETED from Active Directory.
+2023-11-17 15:18:50,D642258, DELETED from Active Directory.
+2023-11-17 15:18:50,D642069, DELETED from Active Directory.
+2023-11-17 15:18:50,D642068, DELETED from Active Directory.
+2023-11-17 15:18:50,D642067, DELETED from Active Directory.
+2023-11-17 15:18:50,D642066, DELETED from Active Directory.
+2023-11-17 15:18:50,D642065, DELETED from Active Directory.
+2023-11-17 15:18:50,D642091, DELETED from Active Directory.
+2023-11-17 15:18:50,D642079, DELETED from Active Directory.
+2023-11-17 15:18:51,D642131, DELETED from Active Directory.
+2023-11-17 15:18:50,D642142, DELETED from Active Directory.
+2023-11-17 15:18:50,D642148, DELETED from Active Directory.
+2023-11-17 15:18:52,D642156, DELETED from Active Directory.
+2023-11-17 15:18:51,D642127, DELETED from Active Directory.
+2023-11-17 15:18:50,D642126, DELETED from Active Directory.
+2023-11-17 15:18:50,D642124, DELETED from Active Directory.
+2023-11-17 15:18:50,D642122, DELETED from Active Directory.
+2023-11-17 15:18:50,D642121, DELETED from Active Directory.
+2023-11-17 15:18:50,D642120, DELETED from Active Directory.
+2023-11-17 15:18:50,D642119, DELETED from Active Directory.
+2023-11-17 15:18:50,D642116, DELETED from Active Directory.
+2023-11-17 15:18:50,D642115, DELETED from Active Directory.
+2023-11-17 15:18:50,D642113, DELETED from Active Directory.
+2023-11-17 15:18:50,D642112, DELETED from Active Directory.
+2023-11-17 15:18:50,D642147, DELETED from Active Directory.
+2023-11-17 15:18:50,D642111, DELETED from Active Directory.
+2023-11-17 15:18:50,D642109, DELETED from Active Directory.
+2023-11-17 15:18:50,D642107, DELETED from Active Directory.
+2023-11-17 15:18:50,D642106, DELETED from Active Directory.
+2023-11-17 15:18:50,D642105, DELETED from Active Directory.
+2023-11-17 15:18:50,D642104, DELETED from Active Directory.
+2023-11-17 15:18:50,D642103, DELETED from Active Directory.
+2023-11-17 15:18:50,D642095, DELETED from Active Directory.
+2023-11-17 15:18:50,D642073, DELETED from Active Directory.
+2023-11-17 15:18:50,D640933, DELETED from Active Directory.
+2023-11-17 15:18:50,D642283, DELETED from Active Directory.
+2023-11-17 15:18:50,D642177, DELETED from Active Directory.
+2023-11-17 15:18:50,D642149, DELETED from Active Directory.
+2023-11-17 15:18:50,D642110, DELETED from Active Directory.
+2023-11-17 15:18:52,D642160, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20231117151856
+**********************
+**********************
+PowerShell transcript start
+Start time: 20231117155208
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.9.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700171304-97c6cc6b-8958-4692-bda0-d8cf1806f04d1700171302013\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-32348-874555.json' -FeatureFlags @() 
+Process ID: 35948
+PSVersion: 7.3.9
+PSEdition: Core
+GitCommitId: 7.3.9
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.9
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2023-11-17 15:52:08,D642846, EXISTS in Active Directory. DistinguishedName: CN=D642846,OU=MF Perishables,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D640928, EXISTS in Active Directory. DistinguishedName: CN=D640928,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D640929, EXISTS in Active Directory. DistinguishedName: CN=D640929,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D640937, EXISTS in Active Directory. DistinguishedName: CN=D640937,OU=Wallboards,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D640945, EXISTS in Active Directory. DistinguishedName: CN=D640945,OU=Wallboards,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642210, EXISTS in Active Directory. DistinguishedName: CN=D642210,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642211, EXISTS in Active Directory. DistinguishedName: CN=D642211,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642389, EXISTS in Active Directory. DistinguishedName: CN=D642389,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642213, EXISTS in Active Directory. DistinguishedName: CN=D642213,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642215, EXISTS in Active Directory. DistinguishedName: CN=D642215,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642216, EXISTS in Active Directory. DistinguishedName: CN=D642216,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642217, EXISTS in Active Directory. DistinguishedName: CN=D642217,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642218, EXISTS in Active Directory. DistinguishedName: CN=D642218,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642219, EXISTS in Active Directory. DistinguishedName: CN=D642219,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642221, EXISTS in Active Directory. DistinguishedName: CN=D642221,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642214, EXISTS in Active Directory. DistinguishedName: CN=D642214,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642222, EXISTS in Active Directory. DistinguishedName: CN=D642222,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642388, EXISTS in Active Directory. DistinguishedName: CN=D642388,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642386, EXISTS in Active Directory. DistinguishedName: CN=D642386,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642279, EXISTS in Active Directory. DistinguishedName: CN=D642279,OU=National Admin Payroll,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642290, EXISTS in Active Directory. DistinguishedName: CN=D642290,OU=National Admin Payroll,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642295, EXISTS in Active Directory. DistinguishedName: CN=D642295,OU=National Admin Payroll,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642296, EXISTS in Active Directory. DistinguishedName: CN=D642296,OU=National Admin Payroll,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642661, EXISTS in Active Directory. DistinguishedName: CN=D642661,OU=M2Home Christchurch,OU=Christchurch,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642750, EXISTS in Active Directory. DistinguishedName: CN=D642750,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642387, EXISTS in Active Directory. DistinguishedName: CN=D642387,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642308, EXISTS in Active Directory. DistinguishedName: CN=D642308,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642332, EXISTS in Active Directory. DistinguishedName: CN=D642332,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642334, EXISTS in Active Directory. DistinguishedName: CN=D642334,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642361, EXISTS in Active Directory. DistinguishedName: CN=D642361,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642362, EXISTS in Active Directory. DistinguishedName: CN=D642362,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642364, EXISTS in Active Directory. DistinguishedName: CN=D642364,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642385, EXISTS in Active Directory. DistinguishedName: CN=D642385,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642321, EXISTS in Active Directory. DistinguishedName: CN=D642321,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642278, EXISTS in Active Directory. DistinguishedName: CN=D642278,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642223, EXISTS in Active Directory. DistinguishedName: CN=D642223,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642225, EXISTS in Active Directory. DistinguishedName: CN=D642225,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642261, EXISTS in Active Directory. DistinguishedName: CN=D642261,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642262, EXISTS in Active Directory. DistinguishedName: CN=D642262,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642265, EXISTS in Active Directory. DistinguishedName: CN=D642265,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642266, EXISTS in Active Directory. DistinguishedName: CN=D642266,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642267, EXISTS in Active Directory. DistinguishedName: CN=D642267,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642269, EXISTS in Active Directory. DistinguishedName: CN=D642269,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642260, EXISTS in Active Directory. DistinguishedName: CN=D642260,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642274, EXISTS in Active Directory. DistinguishedName: CN=D642274,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642151, EXISTS in Active Directory. DistinguishedName: CN=D642151,OU=Owens Tankers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642152, EXISTS in Active Directory. DistinguishedName: CN=D642152,OU=Owens Tankers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642153, EXISTS in Active Directory. DistinguishedName: CN=D642153,OU=Owens Tankers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642154, EXISTS in Active Directory. DistinguishedName: CN=D642154,OU=Owens Tankers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642155, EXISTS in Active Directory. DistinguishedName: CN=D642155,OU=Owens Tankers,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D640930, EXISTS in Active Directory. DistinguishedName: CN=D640930,OU=MF Training Centre,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642558, EXISTS in Active Directory. DistinguishedName: CN=D642558,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642224, EXISTS in Active Directory. DistinguishedName: CN=D642224,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642249, EXISTS in Active Directory. DistinguishedName: CN=D642249,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642247, EXISTS in Active Directory. DistinguishedName: CN=D642247,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642226, EXISTS in Active Directory. DistinguishedName: CN=D642226,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642228, EXISTS in Active Directory. DistinguishedName: CN=D642228,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642231, EXISTS in Active Directory. DistinguishedName: CN=D642231,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642232, EXISTS in Active Directory. DistinguishedName: CN=D642232,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642233, EXISTS in Active Directory. DistinguishedName: CN=D642233,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642236, EXISTS in Active Directory. DistinguishedName: CN=D642236,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642248, EXISTS in Active Directory. DistinguishedName: CN=D642248,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642237, EXISTS in Active Directory. DistinguishedName: CN=D642237,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642239, EXISTS in Active Directory. DistinguishedName: CN=D642239,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642240, EXISTS in Active Directory. DistinguishedName: CN=D642240,OU=Wallboards,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642241, EXISTS in Active Directory. DistinguishedName: CN=D642241,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642244, EXISTS in Active Directory. DistinguishedName: CN=D642244,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642245, EXISTS in Active Directory. DistinguishedName: CN=D642245,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642246, EXISTS in Active Directory. DistinguishedName: CN=D642246,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642238, EXISTS in Active Directory. DistinguishedName: CN=D642238,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642235, EXISTS in Active Directory. DistinguishedName: CN=D642235,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642263, EXISTS in Active Directory. DistinguishedName: CN=D642263,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642229, EXISTS in Active Directory. DistinguishedName: CN=D642229,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642703, EXISTS in Active Directory. DistinguishedName: CN=D642703,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642704, EXISTS in Active Directory. DistinguishedName: CN=D642704,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642705, EXISTS in Active Directory. DistinguishedName: CN=D642705,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642706, EXISTS in Active Directory. DistinguishedName: CN=D642706,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642721, EXISTS in Active Directory. DistinguishedName: CN=D642721,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642722, EXISTS in Active Directory. DistinguishedName: CN=D642722,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642702, EXISTS in Active Directory. DistinguishedName: CN=D642702,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642727, EXISTS in Active Directory. DistinguishedName: CN=D642727,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642742, EXISTS in Active Directory. DistinguishedName: CN=D642742,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642743, EXISTS in Active Directory. DistinguishedName: CN=D642743,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642744, EXISTS in Active Directory. DistinguishedName: CN=D642744,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642745, EXISTS in Active Directory. DistinguishedName: CN=D642745,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642746, EXISTS in Active Directory. DistinguishedName: CN=D642746,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642747, EXISTS in Active Directory. DistinguishedName: CN=D642747,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642731, EXISTS in Active Directory. DistinguishedName: CN=D642731,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:10,D642230, EXISTS in Active Directory. DistinguishedName: CN=D642230,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642701, EXISTS in Active Directory. DistinguishedName: CN=D642701,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642486, EXISTS in Active Directory. DistinguishedName: CN=D642486,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642204, EXISTS in Active Directory. DistinguishedName: CN=D642204,OU=MF Perishables,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642204, EXISTS in Active Directory. DistinguishedName: CN=D642204,OU=MF Perishables,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642287, EXISTS in Active Directory. DistinguishedName: CN=D642287,OU=MF Perishables,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642289, EXISTS in Active Directory. DistinguishedName: CN=D642289,OU=MF Perishables,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642285, EXISTS in Active Directory. DistinguishedName: CN=D642285,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642479, EXISTS in Active Directory. DistinguishedName: CN=D642479,OU=MF Perishables,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642700, EXISTS in Active Directory. DistinguishedName: CN=D642700,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642783, EXISTS in Active Directory. DistinguishedName: CN=D642783,OU=MF Perishables,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D640940, EXISTS in Active Directory. DistinguishedName: CN=D640940,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642010, EXISTS in Active Directory. DistinguishedName: CN=D642010,OU=Dailyfreight Akl,OU=ORorke Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642102, EXISTS in Active Directory. DistinguishedName: CN=D642102,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642203, EXISTS in Active Directory. DistinguishedName: CN=D642203,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D642363, EXISTS in Active Directory. DistinguishedName: CN=D642363,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642478, EXISTS in Active Directory. DistinguishedName: CN=D642478,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:08,D640936, EXISTS in Active Directory. DistinguishedName: CN=D640936,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642752, EXISTS in Active Directory. DistinguishedName: CN=D642752,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642748, EXISTS in Active Directory. DistinguishedName: CN=D642748,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642305, EXISTS in Active Directory. DistinguishedName: CN=D642305,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642760, EXISTS in Active Directory. DistinguishedName: CN=D642760,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642307, EXISTS in Active Directory. DistinguishedName: CN=D642307,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642360, EXISTS in Active Directory. DistinguishedName: CN=D642360,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642365, EXISTS in Active Directory. DistinguishedName: CN=D642365,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642367, EXISTS in Active Directory. DistinguishedName: CN=D642367,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642373, EXISTS in Active Directory. DistinguishedName: CN=D642373,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642300, EXISTS in Active Directory. DistinguishedName: CN=D642300,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D640944, EXISTS in Active Directory. DistinguishedName: CN=D640944,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642146, EXISTS in Active Directory. DistinguishedName: CN=D642146,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642201, EXISTS in Active Directory. DistinguishedName: CN=D642201,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642209, EXISTS in Active Directory. DistinguishedName: CN=D642209,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642212, EXISTS in Active Directory. DistinguishedName: CN=D642212,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642220, EXISTS in Active Directory. DistinguishedName: CN=D642220,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642227, EXISTS in Active Directory. DistinguishedName: CN=D642227,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642141, EXISTS in Active Directory. DistinguishedName: CN=D642141,OU=IT Team AKL,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642273, EXISTS in Active Directory. DistinguishedName: CN=D642273,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D642157, EXISTS in Active Directory. DistinguishedName: CN=D642157,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642795, EXISTS in Active Directory. DistinguishedName: CN=D642795,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642793, EXISTS in Active Directory. DistinguishedName: CN=D642793,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642792, EXISTS in Active Directory. DistinguishedName: CN=D642792,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642790, EXISTS in Active Directory. DistinguishedName: CN=D642790,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642762, EXISTS in Active Directory. DistinguishedName: CN=D642762,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642763, EXISTS in Active Directory. DistinguishedName: CN=D642763,OU=Test,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642765, EXISTS in Active Directory. DistinguishedName: CN=D642765,OU=PC Decommissioning,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642788, EXISTS in Active Directory. DistinguishedName: CN=D642788,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642784, EXISTS in Active Directory. DistinguishedName: CN=D642784,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D640942, EXISTS in Active Directory. DistinguishedName: CN=D640942,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642768, EXISTS in Active Directory. DistinguishedName: CN=D642768,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:09,D642766, EXISTS in Active Directory. DistinguishedName: CN=D642766,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-17 15:52:11,D640931, DELETED from Active Directory.
+2023-11-17 15:52:09,D642767, DELETED from Active Directory.
+2023-11-17 15:52:09,D642769, DELETED from Active Directory.
+2023-11-17 15:52:10,D642441, DELETED from Active Directory.
+2023-11-17 15:52:10,D642234, DELETED from Active Directory.
+2023-11-17 15:52:09,D642368, DELETED from Active Directory.
+2023-11-17 15:52:09,D642417, DELETED from Active Directory.
+2023-11-17 15:52:09,D642707, DELETED from Active Directory.
+2023-11-17 15:52:10,D642276, DELETED from Active Directory.
+2023-11-17 15:52:09,D642761, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20231117155214
+**********************
+**********************
+PowerShell transcript start
+Start time: 20231119123122
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.0.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1700349455-1e568c41-1ef4-422e-b0c6-4edfb4ceff691700349453042\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9660-654746.json' -FeatureFlags @() 
+Process ID: 20692
+PSVersion: 7.4.0
+PSEdition: Core
+GitCommitId: 7.4.0
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2023-11-19 12:31:23,D642245, EXISTS in Active Directory. DistinguishedName: CN=D642245,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2023-11-19 12:31:22,D640930, EXISTS in Active Directory. DistinguishedName: CN=D640930,OU=MF Training Centre,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-19 12:31:22,D642146, EXISTS in Active Directory. DistinguishedName: CN=D642146,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-19 12:31:22,D640944, EXISTS in Active Directory. DistinguishedName: CN=D640944,OU=National Admin,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-19 12:31:24,D642661, EXISTS in Active Directory. DistinguishedName: CN=D642661,OU=M2Home Christchurch,OU=Christchurch,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2023-11-19 12:31:24,D642367, DELETED from Active Directory.
+2023-11-19 12:31:24,D642368, DELETED from Active Directory.
+2023-11-19 12:31:24,D642373, DELETED from Active Directory.
+2023-11-19 12:31:24,D642385, DELETED from Active Directory.
+2023-11-19 12:31:24,D642386, DELETED from Active Directory.
+2023-11-19 12:31:24,D642387, DELETED from Active Directory.
+2023-11-19 12:31:24,D642389, DELETED from Active Directory.
+2023-11-19 12:31:24,D642417, DELETED from Active Directory.
+2023-11-19 12:31:24,D642441, DELETED from Active Directory.
+2023-11-19 12:31:24,D642478, DELETED from Active Directory.
+2023-11-19 12:31:24,D642479, DELETED from Active Directory.
+2023-11-19 12:31:24,D642486, DELETED from Active Directory.
+2023-11-19 12:31:24,D642558, DELETED from Active Directory.
+2023-11-19 12:31:24,D642388, DELETED from Active Directory.
+2023-11-19 12:31:24,D642365, DELETED from Active Directory.
+2023-11-19 12:31:22,D640928, DELETED from Active Directory.
+2023-11-19 12:31:24,D642363, DELETED from Active Directory.
+2023-11-19 12:31:23,D642289, DELETED from Active Directory.
+2023-11-19 12:31:23,D642290, DELETED from Active Directory.
+2023-11-19 12:31:23,D642295, DELETED from Active Directory.
+2023-11-19 12:31:23,D642296, DELETED from Active Directory.
+2023-11-19 12:31:23,D642300, DELETED from Active Directory.
+2023-11-19 12:31:23,D642305, DELETED from Active Directory.
+2023-11-19 12:31:24,D642364, DELETED from Active Directory.
+2023-11-19 12:31:23,D642307, DELETED from Active Directory.
+2023-11-19 12:31:23,D642321, DELETED from Active Directory.
+2023-11-19 12:31:24,D642332, DELETED from Active Directory.
+2023-11-19 12:31:24,D642334, DELETED from Active Directory.
+2023-11-19 12:31:24,D642360, DELETED from Active Directory.
+2023-11-19 12:31:24,D642361, DELETED from Active Directory.
+2023-11-19 12:31:24,D642362, DELETED from Active Directory.
+2023-11-19 12:31:23,D642308, DELETED from Active Directory.
+2023-11-19 12:31:24,D642700, DELETED from Active Directory.
+2023-11-19 12:31:24,D642702, DELETED from Active Directory.
+2023-11-19 12:31:23,D642287, DELETED from Active Directory.
+2023-11-19 12:31:24,D642761, DELETED from Active Directory.
+2023-11-19 12:31:24,D642762, DELETED from Active Directory.
+2023-11-19 12:31:24,D642763, DELETED from Active Directory.
+2023-11-19 12:31:24,D642765, DELETED from Active Directory.
+2023-11-19 12:31:24,D642766, DELETED from Active Directory.
+2023-11-19 12:31:24,D642767, DELETED from Active Directory.
+2023-11-19 12:31:24,D642760, DELETED from Active Directory.
+2023-11-19 12:31:24,D642768, DELETED from Active Directory.
+2023-11-19 12:31:24,D642783, DELETED from Active Directory.
+2023-11-19 12:31:24,D642784, DELETED from Active Directory.
+2023-11-19 12:31:24,D642788, DELETED from Active Directory.
+2023-11-19 12:31:24,D642790, DELETED from Active Directory.
+2023-11-19 12:31:24,D642792, DELETED from Active Directory.
+2023-11-19 12:31:24,D642793, DELETED from Active Directory.
+2023-11-19 12:31:24,D642769, DELETED from Active Directory.
+2023-11-19 12:31:24,D642752, DELETED from Active Directory.
+2023-11-19 12:31:24,D642750, DELETED from Active Directory.
+2023-11-19 12:31:24,D642748, DELETED from Active Directory.
+2023-11-19 12:31:24,D642703, DELETED from Active Directory.
+2023-11-19 12:31:24,D642704, DELETED from Active Directory.
+2023-11-19 12:31:24,D642705, DELETED from Active Directory.
+2023-11-19 12:31:24,D642706, DELETED from Active Directory.
+2023-11-19 12:31:24,D642707, DELETED from Active Directory.
+2023-11-19 12:31:24,D642721, DELETED from Active Directory.
+2023-11-19 12:31:24,D642722, DELETED from Active Directory.
+2023-11-19 12:31:24,D642727, DELETED from Active Directory.
+2023-11-19 12:31:24,D642731, DELETED from Active Directory.
+2023-11-19 12:31:24,D642742, DELETED from Active Directory.
+2023-11-19 12:31:24,D642743, DELETED from Active Directory.
+2023-11-19 12:31:24,D642744, DELETED from Active Directory.
+2023-11-19 12:31:24,D642745, DELETED from Active Directory.
+2023-11-19 12:31:24,D642746, DELETED from Active Directory.
+2023-11-19 12:31:24,D642747, DELETED from Active Directory.
+2023-11-19 12:31:24,D642701, DELETED from Active Directory.
+2023-11-19 12:31:23,D642285, DELETED from Active Directory.
+2023-11-19 12:31:23,D642276, DELETED from Active Directory.
+2023-11-19 12:31:23,D642278, DELETED from Active Directory.
+2023-11-19 12:31:22,D642204, DELETED from Active Directory.
+2023-11-19 12:31:22,D642204, DELETED from Active Directory.
+2023-11-19 12:31:22,D642209, DELETED from Active Directory.
+2023-11-19 12:31:23,D642210, DELETED from Active Directory.
+2023-11-19 12:31:23,D642211, DELETED from Active Directory.
+2023-11-19 12:31:23,D642212, DELETED from Active Directory.
+2023-11-19 12:31:22,D642203, DELETED from Active Directory.
+2023-11-19 12:31:23,D642213, DELETED from Active Directory.
+2023-11-19 12:31:23,D642215, DELETED from Active Directory.
+2023-11-19 12:31:23,D642216, DELETED from Active Directory.
+2023-11-19 12:31:23,D642217, DELETED from Active Directory.
+2023-11-19 12:31:23,D642218, DELETED from Active Directory.
+2023-11-19 12:31:23,D642219, DELETED from Active Directory.
+2023-11-19 12:31:23,D642220, DELETED from Active Directory.
+2023-11-19 12:31:23,D642214, DELETED from Active Directory.
+2023-11-19 12:31:23,D642221, DELETED from Active Directory.
+2023-11-19 12:31:22,D642201, DELETED from Active Directory.
+2023-11-19 12:31:22,D642155, DELETED from Active Directory.
+2023-11-19 12:31:22,D640929, DELETED from Active Directory.
+2023-11-19 12:31:22,D640931, DELETED from Active Directory.
+2023-11-19 12:31:22,D640936, DELETED from Active Directory.
+2023-11-19 12:31:22,D640937, DELETED from Active Directory.
+2023-11-19 12:31:22,D640940, DELETED from Active Directory.
+2023-11-19 12:31:22,D640942, DELETED from Active Directory.
+2023-11-19 12:31:22,D642157, DELETED from Active Directory.
+2023-11-19 12:31:22,D640945, DELETED from Active Directory.
+2023-11-19 12:31:22,D642102, DELETED from Active Directory.
+2023-11-19 12:31:22,D642141, DELETED from Active Directory.
+2023-11-19 12:31:22,D642151, DELETED from Active Directory.
+2023-11-19 12:31:22,D642152, DELETED from Active Directory.
+2023-11-19 12:31:22,D642153, DELETED from Active Directory.
+2023-11-19 12:31:22,D642154, DELETED from Active Directory.
+2023-11-19 12:31:22,D642010, DELETED from Active Directory.
+2023-11-19 12:31:23,D642222, DELETED from Active Directory.
+2023-11-19 12:31:23,D642223, DELETED from Active Directory.
+2023-11-19 12:31:23,D642224, DELETED from Active Directory.
+2023-11-19 12:31:23,D642247, DELETED from Active Directory.
+2023-11-19 12:31:23,D642248, DELETED from Active Directory.
+2023-11-19 12:31:23,D642249, DELETED from Active Directory.
+2023-11-19 12:31:23,D642260, DELETED from Active Directory.
+2023-11-19 12:31:23,D642261, DELETED from Active Directory.
+2023-11-19 12:31:23,D642262, DELETED from Active Directory.
+2023-11-19 12:31:23,D642246, DELETED from Active Directory.
+2023-11-19 12:31:23,D642263, DELETED from Active Directory.
+2023-11-19 12:31:23,D642266, DELETED from Active Directory.
+2023-11-19 12:31:23,D642267, DELETED from Active Directory.
+2023-11-19 12:31:23,D642269, DELETED from Active Directory.
+2023-11-19 12:31:23,D642273, DELETED from Active Directory.
+2023-11-19 12:31:23,D642274, DELETED from Active Directory.
+2023-11-19 12:31:25,D642795, DELETED from Active Directory.
+2023-11-19 12:31:23,D642265, DELETED from Active Directory.
+2023-11-19 12:31:23,D642244, DELETED from Active Directory.
+2023-11-19 12:31:23,D642241, DELETED from Active Directory.
+2023-11-19 12:31:23,D642240, DELETED from Active Directory.
+2023-11-19 12:31:23,D642225, DELETED from Active Directory.
+2023-11-19 12:31:23,D642226, DELETED from Active Directory.
+2023-11-19 12:31:23,D642227, DELETED from Active Directory.
+2023-11-19 12:31:23,D642228, DELETED from Active Directory.
+2023-11-19 12:31:23,D642229, DELETED from Active Directory.
+2023-11-19 12:31:23,D642230, DELETED from Active Directory.
+2023-11-19 12:31:23,D642231, DELETED from Active Directory.
+2023-11-19 12:31:23,D642232, DELETED from Active Directory.
+2023-11-19 12:31:23,D642233, DELETED from Active Directory.
+2023-11-19 12:31:23,D642234, DELETED from Active Directory.
+2023-11-19 12:31:23,D642235, DELETED from Active Directory.
+2023-11-19 12:31:23,D642236, DELETED from Active Directory.
+2023-11-19 12:31:23,D642237, DELETED from Active Directory.
+2023-11-19 12:31:23,D642238, DELETED from Active Directory.
+2023-11-19 12:31:23,D642239, DELETED from Active Directory.
+2023-11-19 12:31:23,D642279, DELETED from Active Directory.
+2023-11-19 12:31:25,D642846, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20231119123128
+**********************
+**********************
+PowerShell transcript start
+Start time: 20240221082749
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2024.0.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2024.0.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2024.0.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2024.0.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1708457263-53e4c1f1-fb42-4772-8e8d-e62b8694b6651708457203848\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-5212-348671.json' -FeatureFlags @() 
+Process ID: 19744
+PSVersion: 7.4.1
+PSEdition: Core
+GitCommitId: 7.4.1
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2024-02-21 08:27:50,L10369, EXISTS in Active Directory. DistinguishedName: CN=L10369,OU=MF Whangarei,OU=Misc North Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10618, EXISTS in Active Directory. DistinguishedName: CN=L10618,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10596, EXISTS in Active Directory. DistinguishedName: CN=L10596,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,D643870, EXISTS in Active Directory. DistinguishedName: CN=D643870,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,D643462, EXISTS in Active Directory. DistinguishedName: CN=D643462,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,D643001, EXISTS in Active Directory. DistinguishedName: CN=D643001,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,D641800, EXISTS in Active Directory. DistinguishedName: CN=D641800,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10895, EXISTS in Active Directory. DistinguishedName: CN=L10895,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,D643114, EXISTS in Active Directory. DistinguishedName: CN=D643114,OU=MF Whangarei,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,nzchh205bms01, EXISTS in Active Directory. DistinguishedName: CN=NZCHH205BMS01,OU=Print,OU=Servers_Old,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,nz2bak01, EXISTS in Active Directory. DistinguishedName: CN=NZ2BAK01,OU=Management,OU=Servers_Old,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10715, EXISTS in Active Directory. DistinguishedName: CN=L10715,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10607, EXISTS in Active Directory. DistinguishedName: CN=L10607,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L11071, EXISTS in Active Directory. DistinguishedName: CN=L11071,OU=MF Napier,OU=Misc North Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10639, EXISTS in Active Directory. DistinguishedName: CN=L10639,OU=National Support,OU=Railway Lane,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,D643008, EXISTS in Active Directory. DistinguishedName: CN=D643008,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10891, EXISTS in Active Directory. DistinguishedName: CN=L10891,OU=FTL Tauranga,OU=Tauranga,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10849, EXISTS in Active Directory. DistinguishedName: CN=L10849,OU=Owens Southdown Lane,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10838, EXISTS in Active Directory. DistinguishedName: CN=L10838,OU=M2Home Auckland,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10804, EXISTS in Active Directory. DistinguishedName: CN=L10804,OU=MF Transport,OU=Railway Lane,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10791, EXISTS in Active Directory. DistinguishedName: CN=L10791,OU=NZ FTL South Island,OU=Christchurch,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10818, EXISTS in Active Directory. DistinguishedName: CN=L10818,OU=FTL Tauranga,OU=Tauranga,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10732, EXISTS in Active Directory. DistinguishedName: CN=L10732,OU=MFL Manu Street,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10741, EXISTS in Active Directory. DistinguishedName: CN=L10741,OU=IT Team AKL,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10695, EXISTS in Active Directory. DistinguishedName: CN=L10695,OU=Dailyfreight Akl,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10680, EXISTS in Active Directory. DistinguishedName: CN=L10680,OU=Pride Logistics,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,L10635, EXISTS in Active Directory. DistinguishedName: CN=L10635,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-02-21 08:27:50,D642594, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20240221082751
+**********************
+**********************
+PowerShell transcript start
+Start time: 20240327104240
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2024.0.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2024.0.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\zoiab.mustafa\.vscode\extensions\ms-vscode.powershell-2024.0.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2024.0.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1711489332-0bcadc59-3ce1-46ea-bc35-3b3a53112e211711489311691\EditorServices.log' -SessionDetailsPath 'c:\Users\zoiab.mustafa\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20388-122513.json' -FeatureFlags @() 
+Process ID: 31128
+PSVersion: 7.4.1
+PSEdition: Core
+GitCommitId: 7.4.1
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2024-03-27 10:42:41,D642092, EXISTS in Active Directory. DistinguishedName: CN=D642092,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-03-27 10:42:41,D640930, EXISTS in Active Directory. DistinguishedName: CN=D640930,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-03-27 10:42:41,D642259, EXISTS in Active Directory. DistinguishedName: CN=D642259,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-03-27 10:42:41,D642089, DELETED from Active Directory.
+2024-03-27 10:42:41,D642297, DELETED from Active Directory.
+2024-03-27 10:42:41,D642140, DELETED from Active Directory.
+2024-03-27 10:42:41,D642118, DELETED from Active Directory.
+2024-03-27 10:42:41,D642072, DELETED from Active Directory.
+2024-03-27 10:42:41,D642192, DELETED from Active Directory.
+2024-03-27 10:42:41,D642370, DELETED from Active Directory.
+2024-03-27 10:42:41,D642276, DELETED from Active Directory.
+2024-03-27 10:42:41,D642594, DELETED from Active Directory.
+2024-03-27 10:42:41,D642564, DELETED from Active Directory.
+2024-03-27 10:42:41,D642637, DELETED from Active Directory.
+2024-03-27 10:42:41,D642798, DELETED from Active Directory.
+2024-03-27 10:42:41,D642062, DELETED from Active Directory.
+2024-03-27 10:42:41,D642770, DELETED from Active Directory.
+2024-03-27 10:42:41,D642632, DELETED from Active Directory.
+2024-03-27 10:42:41,D642676, DELETED from Active Directory.
+2024-03-27 10:42:41,D642668, DELETED from Active Directory.
+2024-03-27 10:42:41,D642023, DELETED from Active Directory.
+2024-03-27 10:42:41,D642016, DELETED from Active Directory.
+2024-03-27 10:42:41,D642031, DELETED from Active Directory.
+2024-03-27 10:42:41,D642165, DELETED from Active Directory.
+2024-03-27 10:42:41,D642046, DELETED from Active Directory.
+2024-03-27 10:42:41,D642163, DELETED from Active Directory.
+2024-03-27 10:42:41,D642620, DELETED from Active Directory.
+2024-03-27 10:42:41,D642285, DELETED from Active Directory.
+**********************
+PowerShell transcript end
+End time: 20240327104242
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240708170524
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -file  H:\Scripts\AD Scan\checkifinad2.ps1 
+Process ID: 13416
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2024-07-08 17:05:27,D640930, EXISTS in Active Directory. DistinguishedName: CN=D640930,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:27,D642134, EXISTS in Active Directory. DistinguishedName: CN=D642134,OU=MF Kaitaia,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:27,D642092, EXISTS in Active Directory. DistinguishedName: CN=D642092,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:27,D642259, EXISTS in Active Directory. DistinguishedName: CN=D642259,OU=MF Nelson,OU=Misc South Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:27,D642661, EXISTS in Active Directory. DistinguishedName: CN=D642661,OU=M2Home Christchurch,OU=Christchurch,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:27,D642620, DELETED from Active Directory.
+2024-07-08 17:05:27,D642637, DELETED from Active Directory.
+2024-07-08 17:05:27,D642632, DELETED from Active Directory.
+2024-07-08 17:05:27,D642676, DELETED from Active Directory.
+2024-07-08 17:05:27,D642770, DELETED from Active Directory.
+2024-07-08 17:05:27,D642798, DELETED from Active Directory.
+2024-07-08 17:05:27,D642564, DELETED from Active Directory.
+2024-07-08 17:05:27,D642118, DELETED from Active Directory.
+2024-07-08 17:05:27,D642140, DELETED from Active Directory.
+2024-07-08 17:05:27,D642062, DELETED from Active Directory.
+2024-07-08 17:05:27,D642072, DELETED from Active Directory.
+2024-07-08 17:05:27,D642594, DELETED from Active Directory.
+2024-07-08 17:05:27,D642285, DELETED from Active Directory.
+2024-07-08 17:05:27,D642192, DELETED from Active Directory.
+2024-07-08 17:05:27,D642772, DELETED from Active Directory.
+2024-07-08 17:05:27,D642297, DELETED from Active Directory.
+2024-07-08 17:05:27,D642370, DELETED from Active Directory.
+2024-07-08 17:05:27,D642605, DELETED from Active Directory.
+2024-07-08 17:05:26,D642276, DELETED from Active Directory.
+2024-07-08 17:05:26,D642070, DELETED from Active Directory.
+2024-07-08 17:05:26,D642668, DELETED from Active Directory.
+2024-07-08 17:05:27,D642031, DELETED from Active Directory.
+2024-07-08 17:05:27,D642016, DELETED from Active Directory.
+2024-07-08 17:05:27,D642023, DELETED from Active Directory.
+2024-07-08 17:05:27,D642165, DELETED from Active Directory.
+2024-07-08 17:05:27,D642089, DELETED from Active Directory.
+2024-07-08 17:05:27,D642163, DELETED from Active Directory.
+2024-07-08 17:05:27,D642046, DELETED from Active Directory.
+**********************
+Windows PowerShell transcript end
+End time: 20240708170527
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240708170544
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -file  H:\Scripts\AD Scan\checkifinad2.ps1 
+Process ID: 19800
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2024-07-08 17:05:45,D640930, EXISTS in Active Directory. DistinguishedName: CN=D640930,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:45,D642134, EXISTS in Active Directory. DistinguishedName: CN=D642134,OU=MF Kaitaia,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:45,D642092, EXISTS in Active Directory. DistinguishedName: CN=D642092,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:45,D642259, EXISTS in Active Directory. DistinguishedName: CN=D642259,OU=MF Nelson,OU=Misc South Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:45,D642661, EXISTS in Active Directory. DistinguishedName: CN=D642661,OU=M2Home Christchurch,OU=Christchurch,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-07-08 17:05:45,D642620, DELETED from Active Directory.
+2024-07-08 17:05:45,D642637, DELETED from Active Directory.
+2024-07-08 17:05:45,D642632, DELETED from Active Directory.
+2024-07-08 17:05:45,D642676, DELETED from Active Directory.
+2024-07-08 17:05:45,D642770, DELETED from Active Directory.
+2024-07-08 17:05:45,D642798, DELETED from Active Directory.
+2024-07-08 17:05:45,D642564, DELETED from Active Directory.
+2024-07-08 17:05:45,D642118, DELETED from Active Directory.
+2024-07-08 17:05:45,D642140, DELETED from Active Directory.
+2024-07-08 17:05:45,D642062, DELETED from Active Directory.
+2024-07-08 17:05:45,D642072, DELETED from Active Directory.
+2024-07-08 17:05:45,D642594, DELETED from Active Directory.
+2024-07-08 17:05:45,D642285, DELETED from Active Directory.
+2024-07-08 17:05:45,D642192, DELETED from Active Directory.
+2024-07-08 17:05:45,D642772, DELETED from Active Directory.
+2024-07-08 17:05:45,D642297, DELETED from Active Directory.
+2024-07-08 17:05:45,D642370, DELETED from Active Directory.
+2024-07-08 17:05:45,D642605, DELETED from Active Directory.
+2024-07-08 17:05:45,D642276, DELETED from Active Directory.
+2024-07-08 17:05:45,D642070, DELETED from Active Directory.
+2024-07-08 17:05:45,D642668, DELETED from Active Directory.
+2024-07-08 17:05:45,D642031, DELETED from Active Directory.
+2024-07-08 17:05:45,D642016, DELETED from Active Directory.
+2024-07-08 17:05:45,D642023, DELETED from Active Directory.
+2024-07-08 17:05:45,D642165, DELETED from Active Directory.
+2024-07-08 17:05:45,D642089, DELETED from Active Directory.
+2024-07-08 17:05:45,D642163, DELETED from Active Directory.
+2024-07-08 17:05:45,D642046, DELETED from Active Directory.
+**********************
+Windows PowerShell transcript end
+End time: 20240708170546
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20241010095036
+Username: MFTNZ\zoiab.mustafa
+RunAs User: MFTNZ\zoiab.mustafa
+Configuration Name: 
+Machine: L10882 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -file  H:\Scripts\AD Scan\checkifinad2.ps1 
+Process ID: 2952
+PSVersion: 5.1.22621.4111
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4111
+BuildVersion: 10.0.22621.4111
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is H:\Scripts\AD Scan\TranscriptADScan.txt
+2024-10-10 09:50:49,D643894, EXISTS in Active Directory. DistinguishedName: CN=D643894,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,D643898, EXISTS in Active Directory. DistinguishedName: CN=D643898,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,L10885, EXISTS in Active Directory. DistinguishedName: CN=L10885,OU=MF Dunedin,OU=Dunedin,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:51,L10811, EXISTS in Active Directory. DistinguishedName: CN=L10811,OU=MF Timaru,OU=Misc South Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643797, EXISTS in Active Directory. DistinguishedName: CN=D643797,OU=MF International,OU=Westney Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,D643817, EXISTS in Active Directory. DistinguishedName: CN=D643817,OU=Dailyfreight Akl,OU=ORorke Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,L10931, EXISTS in Active Directory. DistinguishedName: CN=L10931,OU=MF Mobile Auckland,OU=Auckland,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,L11157, EXISTS in Active Directory. DistinguishedName: CN=L11157,OU=MF Palmerston North,OU=Misc North Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,W642029, EXISTS in Active Directory. DistinguishedName: CN=W642029,OU=Wallboards,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,WB642005, EXISTS in Active Directory. DistinguishedName: CN=WB642005,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:49,L11033, EXISTS in Active Directory. DistinguishedName: CN=L11033,OU=MF Blenheim,OU=Misc South Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,L11132, EXISTS in Active Directory. DistinguishedName: CN=L11132,OU=MFI Wellington,OU=Wellington,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:50,L11133, EXISTS in Active Directory. DistinguishedName: CN=L11133,OU=MF Wanganui,OU=Misc North Island,OU=Notebooks,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643780, EXISTS in Active Directory. DistinguishedName: CN=D643780,OU=MF Logistics,OU=Railway Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D642914, EXISTS in Active Directory. DistinguishedName: CN=D642914,OU=MF Whangarei,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D642948, EXISTS in Active Directory. DistinguishedName: CN=D642948,OU=Dailyfreight Akl,OU=ORorke Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D640920, EXISTS in Active Directory. DistinguishedName: CN=D640920,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D642819, EXISTS in Active Directory. DistinguishedName: CN=D642819,OU=Workstations and Notebooks,OU=Graveyard,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D642883, EXISTS in Active Directory. DistinguishedName: CN=D642883,OU=MF Cromwell,OU=Misc South Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643568, EXISTS in Active Directory. DistinguishedName: CN=D643568,OU=MF Rotorua,OU=Misc North Island,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D642912, EXISTS in Active Directory. DistinguishedName: CN=D642912,OU=MF FTL Auckland,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:48,D643541, EXISTS in Active Directory. DistinguishedName: CN=D643541,OU=Dailyfreight Akl,OU=ORorke Road,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D643074, EXISTS in Active Directory. DistinguishedName: CN=D643074,OU=Owens Southdown Lane,OU=Auckland,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:47,D643276, EXISTS in Active Directory. DistinguishedName: CN=D643276,OU=Dailyfreight Christchurch,OU=Christchurch,OU=Workstations,DC=nz,DC=mainfreight,DC=com
+2024-10-10 09:50:46,D640840, DELETED from Active Directory.
+2024-10-10 09:50:50,W642056, DELETED from Active Directory.
+2024-10-10 09:50:48,D643612, DELETED from Active Directory.
+2024-10-10 09:50:48,D643610, DELETED from Active Directory.
+2024-10-10 09:50:50,W642009, DELETED from Active Directory.
+2024-10-10 09:50:46,D642134, DELETED from Active Directory.
+**********************
+Windows PowerShell transcript end
+End time: 20241010095107
+**********************
