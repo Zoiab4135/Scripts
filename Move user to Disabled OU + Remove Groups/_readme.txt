@@ -1,0 +1,1 @@
+This script will move users to a specified OU and remove the specified groups.
